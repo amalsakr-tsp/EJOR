@@ -34,9 +34,15 @@ The code implements the risk-aware Stackelberg game studied in the paper. The In
 * `figure_proba.py`: generates the probability-guarantee figures.
 * `main.py`: runs the full numerical experiment.
 
-## Installation
+## Requirements
 
+The code requires Python 3.10 or later. The main dependencies are `numpy` and `matplotlib`, which are specified in `requirements.txt`.
 
+To install the dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Running the experiments
 
@@ -59,11 +65,10 @@ It also generates PDF figures for the leader-side results and the probability-gu
 If you use this code, please cite the associated arXiv paper:
 
 ```bibtex
-@misc{sakr2026shared,
-  title        = {Shared Infrastructure Investment and Pricing: Stackelberg Equilibria in Risk-Aware Take-or-Pay Contracts},
-  author       = {Sakr, Amal and Araldo, Andrea and Başar, Tamer and Chahed, Tijani},
-  year         = {2026},
-  eprint       = {2606.12167},
-  archivePrefix = {arXiv}
+@article{sakr2026shared,
+  title={Shared Infrastructure Investment and Pricing: Stackelberg Equilibria in Risk-Aware Take-or-Pay Contracts},
+  author={Sakr, Amal and Araldo, Andrea and Ba{\c{s}}ar, Tamer and Chahed, Tijani},
+  journal={arXiv preprint arXiv:2606.12167},
+  year={2026}
 }
 ```
